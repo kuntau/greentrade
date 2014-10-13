@@ -1,0 +1,4 @@
+2014-10-12 19:15:44 - PHP Notice:  Undefined variable: text_edit in /var/www/html/cart/admin/view/template/setting/setting.tpl on line 29
+2014-10-12 19:16:56 - PHP Notice:  Undefined variable: text_edit in /var/www/html/cart/admin/view/template/setting/setting.tpl on line 29
+2014-10-12 19:28:24 - PHP Notice:  Undefined variable: text_edit in /var/www/html/cart/admin/view/template/setting/setting.tpl on line 29
+2014-10-12 19:57:01 - PHP Notice:  Undefined variable: text_edit in /var/www/html/cart/admin/view/template/setting/setting.tpl on line 29
