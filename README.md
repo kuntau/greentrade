@@ -17,15 +17,15 @@ Converted
 Client Request
 --------------
 
-[ ] Mobile version - Manual user selected
-[ ] Register/Sign in above the fold - More eyecatching gfx
-[ ] Dual language
-[ ] Delivery charge
-[ ] Export report to excel
-[ ] Payment method - COD/Online Payment/Bank transfer
-[ ] 3% discount for COD
-[ ] Categories on homepage - picture hyperlinks
-[ ] Add IC field on user registration
-[ ] Different pricing for dropship agent
-[ ] Related products
-[x] 5 Columns categories
+- [ ] Mobile version - Manual user selected
+- [ ] Register/Sign in above the fold - More eyecatching gfx
+- [ ] Dual language
+- [ ] Delivery charge
+- [ ] Export report to excel
+- [ ] Payment method - COD/Online Payment/Bank transfer
+- [ ] 3% discount for COD
+- [ ] Categories on homepage - picture hyperlinks
+- [ ] Add IC field on user registration
+- [ ] Different pricing for dropship agent
+- [ ] Related products
+- [x] 5 Columns categories
