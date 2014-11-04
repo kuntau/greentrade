@@ -1,4 +1,4 @@
-<h3><?php echo $heading_title; ?></h3>
+<h2><?php echo $heading_title; ?></h2>
 <div class="row product-layout">
   <?php foreach ($products as $product) { ?>
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
