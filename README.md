@@ -5,12 +5,12 @@ Language
 --------
 
 Missing files/folder
-- `account/recurring.php`
-- - `recurring`
-- - `voucher`
+- `account`
+  - `recurring`
+  - `voucher`
 - `common`
-- - `cart`
-- - `currency`
+  - `cart`
+  - `currency`
 - - `language`
 - - `search`
 - `api`
