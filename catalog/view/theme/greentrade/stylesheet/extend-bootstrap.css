@@ -31,3 +31,10 @@
     float: left;
   }
 }
+
+#column-right > .well {
+  background: url('http://192.168.0.110/cart/image/catalog/demo/banners/LoginRed.jpg')
+}
+#column-right > .well > h2 {
+  margin-top: 0px;
+}
