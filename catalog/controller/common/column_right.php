@@ -58,7 +58,28 @@ class ControllerCommonColumnRight extends Controller {
 			}
 		}
 
-		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/column_right.tpl')) {
+    // kuntau user account edit start
+		$this->load->language('common/header');
+
+		$data['text_account'] = $this->language->get('text_account');
+		$data['text_register'] = $this->language->get('text_register');
+		$data['text_login'] = $this->language->get('text_login');
+		$data['text_order'] = $this->language->get('text_order');
+		$data['text_transaction'] = $this->language->get('text_transaction');
+		$data['text_download'] = $this->language->get('text_download');
+		$data['text_logout'] = $this->language->get('text_logout');
+   
+		$data['logged'] = $this->customer->isLogged();
+		$data['account'] = $this->url->link('account/account', '', 'SSL');
+		$data['register'] = $this->url->link('account/register', '', 'SSL');
+		$data['login'] = $this->url->link('account/login', '', 'SSL');
+		$data['order'] = $this->url->link('account/order', '', 'SSL');
+		$data['transaction'] = $this->url->link('account/transaction', '', 'SSL');
+		$data['download'] = $this->url->link('account/download', '', 'SSL');
+		$data['logout'] = $this->url->link('account/logout', '', 'SSL');
+    // kuntau user account edit end
+    
+    if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/column_right.tpl')) {
 			return $this->load->view($this->config->get('config_template') . '/template/common/column_right.tpl', $data);
 		} else {
 			return $this->load->view('default/template/common/column_right.tpl', $data);
